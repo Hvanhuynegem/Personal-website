@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 85%;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    content:url("images/logo.png");
+    width: 150px;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.loginsetup{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+
+.lbtn{
+    width: 120px;
+    height: 40px;
+    background: #2ba2aa;
+    border: 2px solid #2ba2aa;
+    margin-top: 55px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.lbtn:hover{
+    color: #000;
+}
+  
+.lbtn:focus{
+    outline: none;
+}
+
+.content{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+  }  
+.content h1{
+    font-family: 'Arial';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.form{
+    width: 300px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 130px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+  }
+
+  
+  .form input{
+    width: 280px;
+    height: 25px;
+    position: center;
+    background: transparent;
+    border-bottom: 1px solid #2ba2aa;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  .datetime input{
+    width: 280px;
+    height: 25px;
+    position: center;
+    background: transparent;
+    border-bottom: 1px solid #2ba2aa;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  
+  .form input:focus{
+    outline: none;
+  }
+  
+  ::placeholder{
+    color: #fff;
+    font-family: Arial;
+  }
+  
+  .btnn{
+    width: 240px;
+    height: 40px;
+    position: center;
+    background: #2ba2aa;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+  }
+  .btnn:hover{
+    background: #fff;
+    color: #2ba2aa;
+  }
+  .btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .form .link a{
+    text-decoration: none;
+    color: #2ba2aa;
+  }
+  .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+.map{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 5px;
+}
+
+iframe{
+    width: 800px;
+    height: 450px;
+    padding: 10px;
+    border: 2px;
+}
+
+
+
+
+.home{
+    width: 400px;
+    float: right;
+    height: 70px;
+}
+
+
+.lcontent{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+  }  
+.lcontent h1{
+    position: absolute;
+    right: 480px;
+    top: -50px;
+    font-family: 'Arial';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.lform{
+    width: 300px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 200px;
+    right: 280px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+  }
+
+  
+  .lform input{
+    width: 280px;
+    height: 25px;
+    position: center;
+    background: transparent;
+    border-bottom: 1px solid #2ba2aa;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+
+  .lform input:focus{
+    outline: none;
+  }
+
+.lbtnn{
+    width: 280px;
+    height: 40px;
+    position: center;
+    background: #2ba2aa;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+  }
+  .lbtnn:hover{
+    background: #fff;
+    color: #2ba2aa;
+  }
+  .lbtnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  .lform .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .lform .link a{
+    text-decoration: none;
+    color: #2ba2aa;
+  }
+
+  .scontent{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+  }  
+.scontent h1{
+    position: absolute;
+    right: 420px;
+    top: -50px;
+    font-family: 'Arial';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.options{
+    width: 300px;
+    height: 620px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    left: 550px;
+    top: 0px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 15px;
+}
+.options h2{
+    font-family: 'Arial';
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.options p{
+    font-family: 'Arial';
+    font-size: 20px;
+    padding-left: 20px;
+}
+.options input:focus{
+  outline: none;
+}
+
+.order{
+  width: 300px;
+  height: 620px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  position: absolute;
+  left: 1000px;
+  top: 0px;
+  transform: translate(0%,-5%);
+  border-radius: 10px;
+  padding: 15px;
+}
+.order h2{
+  font-family: 'Arial';
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.order p{
+  font-family: 'Arial';
+  font-size: 20px;
+  padding-left: 20px;
+}
+.order input:focus{
+outline: none;
+}
+
+.order iframe{
+  width: 280px;
+  height: 300px;
+  padding: 10px;
+  border: 2px;
+}
